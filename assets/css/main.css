@@ -1,0 +1,131 @@
+@font-face {
+    src: url(..fonts/roboto/Roboto-Bold.woff);
+}
+body, body *{
+font-family:"Roboto-Bold";
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*header*/
+header h1 {
+  font-weight: 600;
+}
+.background{
+  background-image: url(../img/bg.jpeg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 100% 74%;
+  width: auto;
+  height: 500px;
+}
+.backgroundm{
+  background-image: url(../img/bg.jpeg);
+  background-size: 200% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: auto;
+  height: 500px;
+}
+.perfil{
+  padding: 5px;
+}
+#mo{
+  padding:25% 0;
+}
+
+/*about me*/
+#about{
+  padding: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #about{
+    padding: 100px 20px;
+  }
+}
+/*portafolio*/
+.conteclado{
+  background-image: url(../img/desk-book.jpg);
+}
+.getzone{
+  background-image: url(../img/consola.jpg);
+}
+.tarsis{
+  background-image: url(../img/code.jpg);
+}
+.onebox{
+  background-image: url(../img/girl-code.jpg);
+}
+.almarosa{
+  background-image: url(../img/desk-code.jpg);
+}
+.misterdreams{
+  background-image: url(../img/img-1.png);
+}
+.criatures{
+  background-image: url(../img/img-1.png);
+}
+.tradeit{
+  background-image: url(../img/img-1.png);
+}
+.mustache{
+  background-image: url(../img/img-1.png);
+}
+.stefysodyssey{
+  background-image: url(../img/img-1.png);
+}
+.grafik2{
+  background-image: url(../img/img-1.png);
+}
+.imo{
+  background-image: url(../img/img-1.png);
+}
+.deta{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 150px;
+}
+#porta{
+  padding: 50px;
+}
+@media only screen and (max-width: 600px) {
+  #porta{
+    padding: 100px 10px;
+  }
+  .deta{
+    width: 120px;
+    height: 80px;
+  }
+}
+/*contac*/
+#contac{
+  padding: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #contac{
+    padding: 100px 20px;
+  }
+  #contacdet{
+    padding: 50px 20px;
+  }
+}
+/*footer*/
+footer{
+  padding: 15px;
+}
